@@ -155,3 +155,9 @@ ul li a:hover {
     border: none;
     border-radius: 10px;
 }
+
+.video-p {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
