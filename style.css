@@ -119,3 +119,39 @@ ul li a:hover {
 .brasilpl{
   color: white;
 }
+
+/* estilo da localização e vídeos */
+.texto-secao {
+    font-size: 16px;
+    color: #333;
+    margin: 10px;
+}
+
+.botao-mapa {
+    display: inline-block;
+    background-color: #2e5d8c;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.botao-mapa:hover {
+    background-color: #f4c542;
+    color: #1f3a5f;
+}
+
+.video-titulo {
+    color: #2e5d8c;
+    margin-top: 25px;
+}
+
+.video {
+    width: 560px;
+    height: 315px;
+    max-width: 90%;
+    border: none;
+    border-radius: 10px;
+}
