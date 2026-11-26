@@ -162,3 +162,44 @@ ul li a:hover {
   justify-content: center;
 }
 
+#localizacao {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 24px;
+  background-color: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+#localizacao h2 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  color: #111827;
+  font-size: 1.5rem;
+}
+
+#localizacao p {
+  margin-bottom: 20px;
+  color: #4b5563;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+#localizacao a {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #2563eb;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+#localizacao a:hover {
+  background-color: #1d4ed8;
+  transform: translateY(-2px);
+}
